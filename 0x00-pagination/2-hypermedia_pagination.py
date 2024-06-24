@@ -46,7 +46,7 @@ class Server:
         true_page_size = len(data)
         total_pages = (len(self.dataset()) + page_size - 1) // page_size
         next_page = page + 1 if page < total_pages else None
-        prev_page = page - 1 if page > 0 else None
+        prev_page = page - 1 if page > 1 else None
         hypermedia = {
             "page_size": true_page_size,
             "page": page,
