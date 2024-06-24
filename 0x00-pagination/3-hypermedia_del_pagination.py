@@ -55,7 +55,7 @@ class Server:
         next_index = current_index if current_index < length else None
         return {
             'index': index,
-            'next_index': next_index,
+            'data': data,
             'page_size': count,
-            'data': data
+            'next_index': next_index
         }
