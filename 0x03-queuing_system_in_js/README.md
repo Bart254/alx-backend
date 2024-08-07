@@ -1,2 +1,0 @@
-# Queuing System in JS
-
